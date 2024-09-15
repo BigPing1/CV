@@ -31,6 +31,13 @@ let state = {
         image:
           "https://bigping1.github.io/site_kingdom_flowers/images/knihte_logo-VERS4.png",
       },
+      {
+        id: 4,
+        name: "Lilu film player",
+        href: "https://bigping1.github.io/Lilu/",
+        adaptive: "no",
+        image: "https://cdn-icons-png.freepik.com/512/49/49243.png",
+      },
     ],
   },
   otherPage: {
