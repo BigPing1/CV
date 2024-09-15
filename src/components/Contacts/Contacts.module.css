@@ -1,0 +1,15 @@
+.tytle {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.link {
+  text-decoration: none;
+  /* padding-left: 10px; */
+  color: black;
+  transition: 1s;
+}
+.link:hover {
+  border-bottom: 1px solid;
+  padding: 0;
+}

@@ -14,6 +14,9 @@ const Sidebar = props => {
         <NavLink className={cssSidebar.link} to='/portfolio'>
           Portfolio
         </NavLink>
+        <NavLink className={cssSidebar.link} to='/contacts'>
+          Contacts
+        </NavLink>
       </div>
     </div>
   );

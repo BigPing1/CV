@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
+import Contacts from "./components/Contacts/Contacts";
 
 function App(props) {
   return (
@@ -29,6 +30,7 @@ function App(props) {
               <Portfolio projects={props.state.portfolioPage.projects} />
             }
           ></Route>
+          <Route path='/contacts' element={<Contacts />}></Route>
         </Routes>
       </div>
       <Footer />
